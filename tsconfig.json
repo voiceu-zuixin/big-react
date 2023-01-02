@@ -16,6 +16,6 @@
     "noUnusedParameters": true,
     "noImplicitReturns": false,
     "skipLibCheck": true,
-    "baseUrl": "./packages"
+    "baseUrl": "./packages" // 这里规定了import等引入的根目录
   }
 }
