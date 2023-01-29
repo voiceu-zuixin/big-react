@@ -1,3 +1,4 @@
+/** 标记，比如这个fiber的动作，新增还是删除 */
 export type Flags = number
 
 export const NoFlags = 0b000001

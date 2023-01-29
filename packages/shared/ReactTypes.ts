@@ -13,5 +13,5 @@ export interface ReactElementType {
 	__mark: string
 }
 
-/** setState的参数类型 */
+/** setState的参数类型，两种更新方式，数据/函数 */
 export type Action<State> = State | ((preState: State) => State)

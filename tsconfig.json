@@ -16,6 +16,9 @@
     "noUnusedParameters": true,
     "noImplicitReturns": false,
     "skipLibCheck": true,
-    "baseUrl": "./packages" // 这里规定了import等引入的根目录
+    "baseUrl": "./packages", // 这里规定了import等引入的根目录 
+    "paths": {
+      "hostConfig": ["./react-reconciler/src/hostConfig"]
+    }
   }
 }

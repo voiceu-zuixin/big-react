@@ -1,3 +1,4 @@
+/** 什么类型的fiberNode节点 */
 export type WorkTag =
 	| typeof FunctionComponent
 	| typeof HostRoot
